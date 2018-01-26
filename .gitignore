@@ -1,0 +1,15 @@
+.DS_Store
+
+# generated csv
+*.csv
+
+# images
+*.png
+*.jpeg
+*.jpg
+*.psd
+*.xcf
+
+# produced html or pdf
+*.html
+*.pdf
