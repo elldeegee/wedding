@@ -10,6 +10,5 @@
 *.psd
 *.xcf
 
-# produced html or pdf
-*.html
+# produced pdf
 *.pdf
