@@ -116,7 +116,7 @@ html {
 .wed_page {
 	min-height:100%;
 	position:relative;
-	height:100%;	
+	height:100%;
 	left: 0;
 }
 .wed_large_text {
@@ -204,7 +204,7 @@ html {
 /*01.2 Titles*/
 
 h3.wed_form_txt {
- color: #986beb;	
+ color: #986beb;
 }
 h2.wed_form_txt {
 	/*padding-bottom: 10px;*/
@@ -298,7 +298,7 @@ h3 {
 .wed_content .text-center h3 {
 	max-width: 700px;
 	margin-right: auto;
-	margin-left: auto	
+	margin-left: auto
 }
 .wed_content img {
 	max-width: 100%;
@@ -350,7 +350,7 @@ h6 {
 		margin-left: 0;
 	}
 	.text-center .wed_icon_box .wed_icon_box_content {
-		padding-left: 10px;	
+		padding-left: 10px;
 	}
 	.text-center h4:after {
 		margin-left: auto;
@@ -490,7 +490,7 @@ p.wed_wht_txt {
 	margin-bottom: 30px;
 	border: 3px solid;
 }
-.form-control.error {   
+.form-control.error {
 	border: 1px solid red;
 }
 label.error {
@@ -526,7 +526,7 @@ textarea.form-control {
    	-o-transform: scale(0.9);
    	-ms-transform: scale(0.9);
    	transform: scale(0.9);
- } 
+ }
  25% {
     -webkit-transform: scale(1.1);
    	-moz-transform: scale(1.1);
@@ -562,7 +562,7 @@ textarea.form-control {
    	-o-transform: scale(0.9);
    	-ms-transform: scale(0.9);
    	transform: scale(0.9);
- } 
+ }
  25% {
     -webkit-transform: scale(1.1);
    	-moz-transform: scale(1.1);
@@ -592,7 +592,7 @@ textarea.form-control {
    	-o-transform: scale(0.9);
    	-ms-transform: scale(0.9);
    	transform: scale(0.9);
- } 
+ }
  25% {
     -webkit-transform: scale(1.1);
    	-moz-transform: scale(1.1);
@@ -622,7 +622,7 @@ textarea.form-control {
    	-o-transform: scale(0.9);
    	-ms-transform: scale(0.9);
    	transform: scale(0.9);
- } 
+ }
  25% {
     -webkit-transform: scale(1.1);
    	-moz-transform: scale(1.1);
@@ -655,7 +655,7 @@ textarea.form-control {
 .wed_vid_bg .btn_new:before,
 .wed_vid_bg .wed_wht_txt .btn:before{
 	background: rgba(110, 88, 48,1);
-} 
+}
 .wed_vid_bg .btn_new:hover,
 .wed_vid_bg .wed_wht_txt .btn:hover{
 	background: rgba(110, 88, 48,1);
@@ -699,13 +699,13 @@ textarea.form-control {
   transition: all 1s;
 }
 .btn_new:hover:before,
- .btn_new:focus:before, 
+ .btn_new:focus:before,
  .btn_new:active:before {
  	opacity: 1;
   animation: pulse2 1.5s infinite both;
 }
 .btn_new:hover:after,
- .btn_new:focus:after, 
+ .btn_new:focus:after,
  .btn_new:active:after  {
  	opacity: 1;
  	animation: pulse2 1.5s infinite both;
@@ -776,7 +776,7 @@ textarea.form-control {
 }
 .col-md-12 .twitter-feed {
 	margin: 50px auto 0;
-	max-width: 600px;	
+	max-width: 600px;
 }
 .twitter-feed ul {
 	list-style:none;
@@ -800,53 +800,53 @@ textarea.form-control {
 	font-size: 40px;
 }
 
-.row_no_pd .col-lg-1, 
-.row_no_pd .col-lg-10, 
-.row_no_pd .col-lg-11, 
-.row_no_pd .col-lg-12, 
-.row_no_pd .col-lg-2, 
-.row_no_pd .col-lg-3, 
-.row_no_pd .col-lg-4, 
-.row_no_pd .col-lg-5, 
-.row_no_pd .col-lg-6, 
-.row_no_pd .col-lg-7, 
-.row_no_pd .col-lg-8, 
-.row_no_pd .col-lg-9, 
-.row_no_pd .col-md-1, 
-.row_no_pd .col-md-10, 
-.row_no_pd .col-md-11, 
-.row_no_pd .col-md-12, 
-.row_no_pd .col-md-2, 
-.row_no_pd .col-md-3, 
-.row_no_pd .col-md-4, 
-.row_no_pd .col-md-5, 
-.row_no_pd .col-md-6, 
-.row_no_pd .col-md-7, 
-.row_no_pd .col-md-8, 
-.row_no_pd .col-md-9, 
-.row_no_pd .col-sm-1, 
-.row_no_pd .col-sm-10, 
-.row_no_pd .col-sm-11, 
-.row_no_pd .col-sm-12, 
-.row_no_pd .col-sm-2, 
-.row_no_pd .col-sm-3, 
-.row_no_pd .col-sm-4, 
-.row_no_pd .col-sm-5, 
-.row_no_pd .col-sm-6, 
-.row_no_pd .col-sm-7, 
-.row_no_pd .col-sm-8, 
-.row_no_pd .col-sm-9, 
-.row_no_pd .col-xs-1, 
-.row_no_pd .col-xs-10, 
-.row_no_pd .col-xs-11, 
-.row_no_pd .col-xs-12, 
-.row_no_pd .col-xs-2, 
-.row_no_pd .col-xs-3, 
-.row_no_pd .col-xs-4, 
-.row_no_pd .col-xs-5, 
-.row_no_pd .col-xs-6, 
-.row_no_pd .col-xs-7, 
-.row_no_pd .col-xs-8, 
+.row_no_pd .col-lg-1,
+.row_no_pd .col-lg-10,
+.row_no_pd .col-lg-11,
+.row_no_pd .col-lg-12,
+.row_no_pd .col-lg-2,
+.row_no_pd .col-lg-3,
+.row_no_pd .col-lg-4,
+.row_no_pd .col-lg-5,
+.row_no_pd .col-lg-6,
+.row_no_pd .col-lg-7,
+.row_no_pd .col-lg-8,
+.row_no_pd .col-lg-9,
+.row_no_pd .col-md-1,
+.row_no_pd .col-md-10,
+.row_no_pd .col-md-11,
+.row_no_pd .col-md-12,
+.row_no_pd .col-md-2,
+.row_no_pd .col-md-3,
+.row_no_pd .col-md-4,
+.row_no_pd .col-md-5,
+.row_no_pd .col-md-6,
+.row_no_pd .col-md-7,
+.row_no_pd .col-md-8,
+.row_no_pd .col-md-9,
+.row_no_pd .col-sm-1,
+.row_no_pd .col-sm-10,
+.row_no_pd .col-sm-11,
+.row_no_pd .col-sm-12,
+.row_no_pd .col-sm-2,
+.row_no_pd .col-sm-3,
+.row_no_pd .col-sm-4,
+.row_no_pd .col-sm-5,
+.row_no_pd .col-sm-6,
+.row_no_pd .col-sm-7,
+.row_no_pd .col-sm-8,
+.row_no_pd .col-sm-9,
+.row_no_pd .col-xs-1,
+.row_no_pd .col-xs-10,
+.row_no_pd .col-xs-11,
+.row_no_pd .col-xs-12,
+.row_no_pd .col-xs-2,
+.row_no_pd .col-xs-3,
+.row_no_pd .col-xs-4,
+.row_no_pd .col-xs-5,
+.row_no_pd .col-xs-6,
+.row_no_pd .col-xs-7,
+.row_no_pd .col-xs-8,
 .row_no_pd .col-xs-9{
 	padding: 0;
 }
@@ -856,9 +856,9 @@ textarea.form-control {
 	padding: 25px 0;
 }
 .great-tabs li a,
-.great-tabs li a:hover, 
+.great-tabs li a:hover,
 .great-tabs li.active a,
-.great-tabs li.active a:hover, 
+.great-tabs li.active a:hover,
 .great-tabs {
 
 }
@@ -880,7 +880,7 @@ textarea.form-control {
 	margin-bottom: 10px;
 }
 .nav-tabs > li > a {
-	border-radius: 0;	
+	border-radius: 0;
 	border: 0;
 }
 .nav-tabs > li > a:hover {
@@ -942,8 +942,8 @@ textarea.form-control {
 	background: orange;
 	color: #fff;
 }
-	.btn.yellow:hover, 
-	.btn.gray:hover, 
+	.btn.yellow:hover,
+	.btn.gray:hover,
 	.btn.gray-light:hover,
 	.btn.cyan:hover,
 	.btn.blue:hover,
@@ -1085,11 +1085,11 @@ h5 .label, h6 .label {
 	right: 0;
 }
 /*02.7 Pagination*/
-.pagination li a, 
-.pagination-lg li a, 
-.pagination > li:first-child > a, 
+.pagination li a,
+.pagination-lg li a,
+.pagination > li:first-child > a,
 .pagination > li:last-child > a,
-.pager li > a, 
+.pager li > a,
 .pager li > span {
 	border-radius: 0;
 }
@@ -1190,7 +1190,7 @@ h5 .label, h6 .label {
 	top: 0;
 	left: 0;
 	background: #fefefe;
-	z-index: 100000;	
+	z-index: 100000;
 }
 
 .wed_loader {
@@ -1285,7 +1285,7 @@ label.error{
 .ui-datepicker {
 	background: #fff;
 }
-.ui-datepicker td a, 
+.ui-datepicker td a,
 .ui-datepicker th {
 	padding: 3px 10px;
 }
@@ -1397,7 +1397,7 @@ header {
 	top: 0;
 	z-index: 10;
 }
-	
+
 		.wed_logo {
 			font: 24px/18px Bree Serif, Arial;
 			color:#333;
@@ -1441,7 +1441,7 @@ header {
 			transition:1s all;
 			min-width: 5px;
 		}
-	
+
 			.wed_logo_rotate_y {
 				transform:rotateY(0);
 			}
@@ -1586,7 +1586,7 @@ header {
 			width: auto;
 		}
 
-		
+
 		header nav {
 			height: 83px;
 			background: rgba(255,255,255,0.3);
@@ -1739,10 +1739,10 @@ header {
 				top: 5%;
 				left: 50%;
 				transform:translateY(-50%) translateX(-50%);
-				opacity: 0;		
+				opacity: 0;
 				-webkit-transition: all .6s;
 				-o-transition: all .6s;
-				transition: all .6s;	
+				transition: all .6s;
 			}
 
 			.wed_top_menu ul ul {
@@ -1758,7 +1758,7 @@ header {
 			.wed_parent:last-child ul {
 				right: 0;
 			}
-				
+
 				.wed_top_menu ul li {
 					float: none;
 				}
@@ -1778,7 +1778,7 @@ header {
 
 
 
-						
+
 			header nav ul li {
 				float: left;
 				height: 100%;
@@ -1919,7 +1919,7 @@ header {
 			.wed_second_step .wed_mobile_menu_hor .wed_logo {
 				top: 17px;
 			}
-			
+
 			/*04.6 Language Menu*/
 			.wed_header_lang ul {
 				list-style:none;
@@ -1996,7 +1996,7 @@ header {
 					position: absolute;
 					top: 120px;
 					width: 200px;
-					padding-left: 50px;	
+					padding-left: 50px;
 				}
 				.wed_mobile_menu_content ul li {
 					position: relative;
@@ -2027,7 +2027,7 @@ header {
 				}
 			.wed_second_step .wed_logo {
 				top: 17px;
-				
+
 			}
 			.wed_logo_und {
 				top: 41px;
@@ -2109,7 +2109,7 @@ header {
 		padding: 16px 0 16px 50px;
 	}
 	.wed_header_basket span {
-		padding: 30px 0 30px 50px;		
+		padding: 30px 0 30px 50px;
 	}
 	.wed_mobile_menu_hor .wed_header_basket span {
 		padding: 16px 0 16px 50px;
@@ -2252,7 +2252,7 @@ header {
 	position: relative;
 	height: 100vh;
 	background-position: center!important;
-}	
+}
 .wed_slider_bottom {
 	position: absolute;
 	bottom: 100px;
@@ -2303,7 +2303,7 @@ header {
 	.wed_slide_txt img {
 		max-width: 100%;
 	}
-	
+
 	/*05.2 Slider Aligns*/
 	.wed_slide_left_bottom {
 		left: 15px;
@@ -2402,7 +2402,7 @@ header {
 			line-height: 1.0625;
 			text-transform: uppercase;
 			margin-bottom: 25px;
-		}		
+		}
 		.wed_slide_subtitle {
 			font:700 20px Josefin Slab, Arial;
 			text-transform: uppercase;
@@ -2492,7 +2492,7 @@ header {
 				height: 4px;
 			}
 			50% {
-				height: 12px;	
+				height: 12px;
 			}
 			100% {
 				height: 4px;
@@ -2637,7 +2637,7 @@ h2.wed_without_after {
 	z-index: 99;
 	height: 52px;
 	position: fixed;
-  transform: rotateZ(25deg)!important;	
+  transform: rotateZ(25deg)!important;
 }
 .wed_music_container {
 	background-image: url(../images/music_new_container.png);
@@ -2831,13 +2831,13 @@ h2.wed_without_after {
 	clear: both;
 }
 
-.countdown-section {
+.countdown-section {)
   padding: 60px 0 0 0;
   position: relative;
   z-index: 1;
   display: block;
   float: left;
-  width: 25%;  
+  width: 100%;
 
 }
 
@@ -2915,7 +2915,7 @@ h2.wed_without_after {
 	-o-transition:all .30s;
 	transition:all .30s;
 	position:absolute;
-} 
+}
 .wed_portfolio_poloroid .wed_portfolio_item_poloroid:hover {
  z-index:100;
 }
@@ -2990,7 +2990,7 @@ h2.wed_without_after {
 
 .wed_portfolio_item_poloroid:hover .wed_port_titles{
 	opacity: 1;
-	transform:translateY(-50%);	
+	transform:translateY(-50%);
 	}
 
 .wed_portfolio_item_poloroid:hover .wed_port_icons {
@@ -3050,7 +3050,7 @@ h2.wed_without_after {
     right: 0;
     top: 48px;
     background: url(../images/white_rough_edge_top.png) center center repeat-x;
-    z-index: 4;	
+    z-index: 4;
 }
 .wed_fixed_bcg .wed_water_border:before {
    content: "";
@@ -3061,7 +3061,7 @@ h2.wed_without_after {
     right: 0;
     top: 48px;
     background: url(../images/white_rough_edge_bottom.png) center center repeat-x;
-    z-index: 4;	
+    z-index: 4;
 }
 .wed_water_border:after{
 	content: "";
@@ -3072,7 +3072,7 @@ h2.wed_without_after {
 	right: 0;
 	bottom: -14px;
 	background: url(../images/white_edge_3.png) center center repeat-x;
-	z-index: 4;	
+	z-index: 4;
 		pointer-events: none;
 }
 .wed_water_border {
@@ -3586,7 +3586,7 @@ h2.wed_without_after {
   }
   20% {
     opacity: 0.8;
-   	
+
   }
   40% {
     opacity: 0.1;
@@ -3614,7 +3614,7 @@ h2.wed_without_after {
   }
   20% {
     opacity: 0.8;
-   	
+
   }
   40% {
     opacity: 0.1;
@@ -3789,7 +3789,7 @@ h2.wed_without_after {
 	bottom: -121px;
 	width: 500px;
 	z-index: 4;
-}	
+}
 .wed_browser_desktop {
 	z-index: 5;
 	left: 50%;
@@ -3849,7 +3849,7 @@ h2.wed_without_after {
 
 /*06.4 Best Friends*/
 .wed_icon_box_photo {
-	overflow: hidden;	
+	overflow: hidden;
 	height: 400px;
 	position: relative;
 	-webkit-transition: all 1s;
@@ -3868,7 +3868,7 @@ h2.wed_without_after {
 	transition: all 0.5s;
 }
 
-	
+
 	.wed_icon_box_photo:after {
 		display: block;
 		content: '';
@@ -4015,7 +4015,7 @@ h2.wed_without_after {
 		transition: all 0.3s;
 	}
 		.wed_news_block:hover img {
-			transform:scale(0.9);	
+			transform:scale(0.9);
 		}
 	.wed_news_img {
 		width: 100%;
@@ -4040,13 +4040,13 @@ h2.wed_without_after {
 		transition: all .5;
 	}
 	.wed_gifts_img img:hover {
-		ansform:scale(1.1);	
+		ansform:scale(1.1);
 	}
 	.wed_news_img_lh {
 		height: 400px;
 	}
 	.wed_news_block:hover .wed_news_img_lh img {
-			transform:scale(1.1);	
+			transform:scale(1.1);
 		}
 	.wed_news_block:hover {
 		text-decoration: none;
@@ -4080,7 +4080,7 @@ h2.wed_without_after {
 	transition: all 0.6s;
 	padding: 0 10px;
 }
-	
+
 	.wed_icon_box h4 {
 		font:500 16px Lato,Arial;
 		text-transform: uppercase;
@@ -4171,7 +4171,7 @@ h2.wed_without_after {
 	.wed_icon_box:hover .wed_testimonials {
 		opacity: 1;
 		top: 200px;
-	}   
+	}
 	.wed_test_cont:hover {
 	 box-shadow:0 10px 20px rgba(0,0,0,0.1);
    }
@@ -4198,7 +4198,7 @@ h2.wed_without_after {
 
 		.wed_icon_box_photo,
 		.wed_icon_box_photo_testimonials {
-			overflow: hidden;	
+			overflow: hidden;
 			height: 300px;
 			width: 100%;
 			position: relative;
@@ -4222,7 +4222,7 @@ h2.wed_without_after {
 			.wed_icon_box:hover .wed_icon_box_photo_testimonials img {
 				transform: scale(1.1);
 			}
-	
+
 
 /*06.7 Around Block*/
 .wed_around_bl {
@@ -4530,7 +4530,7 @@ footer a {
 	display: block;
 }
 .wed_portfolio_padding {
-	margin: 15px -15px;	
+	margin: 15px -15px;
 }
 .wed_portfolio_no_padding {
 	margin: 0
@@ -4560,14 +4560,14 @@ footer a {
 		-webkit-transition: all 0.3s;
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
-		opacity: 0;	
+		opacity: 0;
 		left: 0;
 		width: 100%;
 	}
 		.wed_portfolio_item:hover .wed_port_titles,
 		.wed_portfolio_slide_item:hover .wed_port_titles {
 			opacity: 1;
-			transform:translateY(-50%);	
+			transform:translateY(-50%);
 			text-align: center;
 		}
 	.wed_portfolio_item_cont:after {
@@ -4846,7 +4846,7 @@ footer a {
 .wed_nav_sidebar ul a:hover, .wed_nav_sidebar ul a:focus, .wed_nav_sidebar ul a:active {
 	text-decoration: none;
 }
-	.wed_nav_sidebar ul a:hover:before, 
+	.wed_nav_sidebar ul a:hover:before,
 	.wed_nav_sidebar .current a:before {
 		margin-right: 15px;
 	}
@@ -4865,7 +4865,7 @@ footer a {
 	-o-transition: color 0.3s;
 	transition: color 0.3s;
 }
-.wed_post_item .wed_post_title a:hover, 
+.wed_post_item .wed_post_title a:hover,
 .wed_post_item .wed_post_info a:hover,
 .wed_post_item .wed_post_more_link:hover, .wed_post_item .wed_post_more_link:focus {
 	text-decoration: none;
@@ -5002,7 +5002,7 @@ footer a {
 	.reply {
 		padding-left: 110px;
 	}
-	
+
 .form-comment {
 	background: #f7f6ff;
 	padding: 40px;
@@ -5475,7 +5475,7 @@ img.wed_fullwidth {
 		-webkit-transition: all .6s;
 		-o-transition: all .6s;
 		transition: all .6s;
-	} 
+	}
 	.wed_img_2 {
 		width: 302px;
 		height:302px;
@@ -5490,7 +5490,7 @@ img.wed_fullwidth {
 		transition: all .6s;
 	}
  /*Floral Frame*/
- .wed_floral .wed_img_1:before, 
+ .wed_floral .wed_img_1:before,
  .wed_floral .wed_img_2:before {
 		display: block;
 		content: "";
@@ -5504,7 +5504,7 @@ img.wed_fullwidth {
    	border-radius: 0;
 	}
 	/*Floral White Frame*/
-	.wed_vid_bg .wed_img_1:before, 
+	.wed_vid_bg .wed_img_1:before,
  .wed_vid_bg .wed_img_2:before {
 		display: block;
 		content: "";
@@ -5517,7 +5517,7 @@ img.wed_fullwidth {
    	border: none;
    	border-radius: 0;
 	}
-	.wed_img_1:before, 
+	.wed_img_1:before,
 	.wed_img_2:before {
 		display: block;
 		content: "";
@@ -5527,7 +5527,7 @@ img.wed_fullwidth {
 		border: 15px solid rgba(134, 48, 252,0.6);
 		border-radius: 50%;
 	}
-	.wed_white .wed_img_1:before, 
+	.wed_white .wed_img_1:before,
 	.wed_white  .wed_img_2:before {
 		display: block;
 		content: "";
@@ -5537,7 +5537,7 @@ img.wed_fullwidth {
 		border: 15px solid rgba(255, 255, 255,0.6);
 		border-radius: 50%;
 	}
-	.wed_heart_img_1:before, 
+	.wed_heart_img_1:before,
 	.wed_heart_img_2:before {
 		display: block;
 		content: "";
@@ -5548,7 +5548,7 @@ img.wed_fullwidth {
 		bottom: 40px;
 		z-index: 1;
 	}
-	.wed_heart_img_1:after, 
+	.wed_heart_img_1:after,
 	.wed_heart_img_2:after{
 		display: block;
     content: "";
@@ -5561,12 +5561,12 @@ img.wed_fullwidth {
 		-webkit-transition: all .6s;
 		-o-transition: all .6s;
 		transition: all .6s;
-	} 
-	.wed_heart_img_1:hover:after, 
+	}
+	.wed_heart_img_1:hover:after,
 	.wed_heart_img_2:hover:after {
 		opacity: 1;
 	}
-	.wed_blue .wed_heart_img_1:after, 
+	.wed_blue .wed_heart_img_1:after,
 	.wed_blue .wed_heart_img_2:after{
 		display: block;
     content: "";
@@ -5579,12 +5579,12 @@ img.wed_fullwidth {
 		-webkit-transition: all .6s;
 		-o-transition: all .6s;
 		transition: all .6s;
-	} 
-	.wed_blue .wed_heart_img_1:hover:after, 
+	}
+	.wed_blue .wed_heart_img_1:hover:after,
 	.wed_blue .wed_heart_img_2:hover:after {
 		opacity: 1;
 	}
-	.wed_red .wed_heart_img_1:after, 
+	.wed_red .wed_heart_img_1:after,
 	.wed_red .wed_heart_img_2:after{
 		display: block;
     content: "";
@@ -5597,8 +5597,8 @@ img.wed_fullwidth {
 		-webkit-transition: all .6s;
 		-o-transition: all .6s;
 		transition: all .6s;
-	} 
-	.wed_red .wed_heart_img_1:hover:after, 
+	}
+	.wed_red .wed_heart_img_1:hover:after,
 	.wed_red .wed_heart_img_2:hover:after {
 		opacity: 1;
 	}
@@ -5613,7 +5613,7 @@ img.wed_fullwidth {
 		-webkit-transition: all .6s;
 		-o-transition: all .6s;
 		transition: all .6s;
-	} 
+	}
 	.wed_heart_img_2 {
 		width: 446px;
 		height: 461px;
@@ -5661,9 +5661,9 @@ img.wed_fullwidth {
 			position: absolute;
 		}
 
-		.wed_img_1:hover .wed_name_left, 
+		.wed_img_1:hover .wed_name_left,
 		.wed_img_2:hover .wed_name_right,
-		.wed_heart_img_1:hover .wed_name_left, 
+		.wed_heart_img_1:hover .wed_name_left,
 		.wed_heart_img_2:hover .wed_name_right  {
 			opacity: 1;
 		}
@@ -5777,7 +5777,7 @@ img.wed_fullwidth {
 	border: 3px solid #e4d4fb;
 	padding: 30px;
 }
-.wed_agency_full .wed_partners_agency .wed_icon_box, 
+.wed_agency_full .wed_partners_agency .wed_icon_box,
 .wed_agency_full .wed_partners_agency .wed_anim_box {
   margin-bottom: -3px;
   margin-right: -3px;
