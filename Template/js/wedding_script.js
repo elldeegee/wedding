@@ -1,12 +1,12 @@
 ﻿(function($) {
 	"use strict"; // Start of use strict
-	
+
 	/* Logo Lettering */
 	var logo_rotate = $("header .wed_logo_animation").attr('data-rotate');
 	if (logo_rotate!='') {
 		$("header .wed_logo_animation").addClass('wed_logo_rotate_'+logo_rotate);
 	}
-	
+
 	$("header .wed_logo_animation").lettering();
 	$("header .wed_logo_animation span").each(function(){
 	 	var min = 0;
@@ -41,7 +41,7 @@
 				on:'.wed_firefly'
 			});
 		});
-		
+
 	};
 	/*Youtube Player*/
 
@@ -70,7 +70,7 @@
 		return false;
 	  }
 	 });
-	
+
 	function send_form(type){
 	  var arr = [];
 	  $("#"+type+" .form-control").each(function(){
@@ -104,7 +104,7 @@
 	}
 
     /*Gallery Lightbox*/
-	$('.lightbox').magnificPopup({ 
+	$('.lightbox').magnificPopup({
 	  type: 'image',
 	  gallery:{
 	    enabled:true
@@ -125,9 +125,9 @@
 		      id: 'v=', // String that splits URL in a two parts, second part should be %id%
 		      // Or null - full URL will be returned
 		      // Or a function that should return %id%, for example:
-		      // id: function(url) { return 'parsed id'; } 
+		      // id: function(url) { return 'parsed id'; }
 
-		      src: 'http://www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe. 
+		      src: 'http://www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe.
 		    },
 		    vimeo: {
 		      index: 'vimeo.com/',
@@ -144,22 +144,22 @@
 		  },
 
 		  srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
-		}  
-	  
+		}
+
 	});
-	
+
 	/*OWL Intro Slider*/
 	$(".wed_slider_carousel").owlCarousel({
- 		navigation : true, 
- 		responsive: true, 
- 		responsiveRefreshRate : 200, 
- 		responsiveBaseElement:window, 
- 		slideSpeed : 200, 
+ 		navigation : true,
+ 		responsive: true,
+ 		responsiveRefreshRate : 200,
+ 		responsiveBaseElement:window,
+ 		slideSpeed : 200,
  		addClassActive:true,
-		paginationSpeed : 200, 
+		paginationSpeed : 200,
 		rewindSpeed : 200,
 		items:1,
-		autoPlay : false, 
+		autoPlay : false,
 		touchDrag:false,
 		singleItem:true,
 		transitionStyle: 'fade',
@@ -168,93 +168,93 @@
 
     /*OWL Team*/
 	$(".wed_team_slider").owlCarousel({
- 		navigation : true, 
- 		responsive: true, 
- 		responsiveRefreshRate : 600, 
- 		responsiveBaseElement:window, 
- 		slideSpeed : 1500, 
+ 		navigation : true,
+ 		responsive: true,
+ 		responsiveRefreshRate : 600,
+ 		responsiveBaseElement:window,
+ 		slideSpeed : 1500,
  		addClassActive:true,
-		paginationSpeed : 700, 
+		paginationSpeed : 700,
 		rewindSpeed : 3000,
 		items:3,
 		itemsTablet:[1000,2],
 		itemsMobile : [569,1],
 		itemsDesktop:3,
-		autoPlay : true, 
-		touchDrag:false, 
+		autoPlay : true,
+		touchDrag:false,
 		navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
 	});
     /*OWL Team*/
 	$(".wed_services_slider").owlCarousel({
- 		navigation : true, 
- 		responsive: true, 
- 		responsiveRefreshRate : 400, 
- 		responsiveBaseElement:window, 
- 		slideSpeed : 400, 
+ 		navigation : true,
+ 		responsive: true,
+ 		responsiveRefreshRate : 400,
+ 		responsiveBaseElement:window,
+ 		slideSpeed : 400,
  		addClassActive:true,
-		paginationSpeed : 900, 
+		paginationSpeed : 900,
 		rewindSpeed : 400,
 		transitionStyle : "goDown",
 		items:1,
-		autoPlay : true, 
+		autoPlay : true,
 		singleItem:true,
 		autoHeight : true,
-		touchDrag:false, 
+		touchDrag:false,
 		navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
 	});
 	/* OWL Team Single*/
 	$(".wed_team_slider_single").owlCarousel({
- 		navigation : true, 
- 		responsive: true, 
- 		responsiveRefreshRate : 200, 
- 		responsiveBaseElement:window, 
- 		slideSpeed : 200, 
+ 		navigation : true,
+ 		responsive: true,
+ 		responsiveRefreshRate : 200,
+ 		responsiveBaseElement:window,
+ 		slideSpeed : 200,
  		addClassActive:true,
-		paginationSpeed : 200, 
+		paginationSpeed : 200,
 		rewindSpeed : 200,
 		items:1,
-		autoPlay : true, 
+		autoPlay : true,
 		singleItem:true,
 		autoHeight : true,
-		touchDrag:false, 
+		touchDrag:false,
 		navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
 	});
 
 	/*OWL Carousel in Shop Item*/
-	
+
 		$(".wed_shop_item_slider").owlCarousel({
-	 		navigation : true, 
-	 		responsive: true, 
-	 		responsiveRefreshRate : 200, 
-	 		responsiveBaseElement:window, 
-	 		slideSpeed : 200, 
+	 		navigation : true,
+	 		responsive: true,
+	 		responsiveRefreshRate : 200,
+	 		responsiveBaseElement:window,
+	 		slideSpeed : 200,
 	 		addClassActive:true,
-			paginationSpeed : 200, 
-			rewindSpeed : 200, 
-			singleItem:true, 
-			autoPlay : false, 	
-			touchDrag:false, 
+			paginationSpeed : 200,
+			rewindSpeed : 200,
+			singleItem:true,
+			autoPlay : false,
+			touchDrag:false,
 			navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
 		});
 
 	/*OWL Slide Gallery*/
-	
+
     /*OWL Slide Gallery*/
 	$(".wed_slide_gallery").owlCarousel({
- 		navigation : true, 
- 		responsive: true, 
- 		responsiveRefreshRate : 600, 
- 		responsiveBaseElement:window, 
- 		slideSpeed : 1500, 
+ 		navigation : true,
+ 		responsive: true,
+ 		responsiveRefreshRate : 600,
+ 		responsiveBaseElement:window,
+ 		slideSpeed : 1500,
  		addClassActive:true,
-		paginationSpeed : 700, 
+		paginationSpeed : 700,
 		rewindSpeed : 3000,
 		items:3,
 		itemsTablet:[1000,2],
 		itemsMobile : [569,1],
 		itemsDesktop:3,
-		autoPlay : true, 
-		touchDrag:false, 
+		autoPlay : true,
+		touchDrag:false,
 		navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
 	});
 
@@ -263,7 +263,7 @@
        $('.tweets-feed').each(function(index) {
            jQuery(this).attr('id', 'tweets-' + index);
        }).each(function(index) {
-           
+
            var TweetConfig = {
                "id": jQuery('#tweets-' + index).attr('data-widget-id'),
                "domId": '',
@@ -291,7 +291,7 @@
            twitterFetcher.fetch(TweetConfig);
        });
 
-	
+
 	/* Section Background */
 	$('.wed_image_bck').each(function(){
 		var image = $(this).attr('data-image');
@@ -304,31 +304,31 @@
 		var position = $(this).attr('data-position');
 		var height = $(this).attr('data-height');
 		if (image){
-			$(this).css('background-image', 'url('+image+')');	
+			$(this).css('background-image', 'url('+image+')');
 		}
 		if (gradient){
-			$(this).css('background-image', gradient);	
+			$(this).css('background-image', gradient);
 		}
 		if (text){
-			$(this).css('color', text);	
+			$(this).css('color', text);
 		}
 		if (color){
-			$(this).css('background-color', color);	
+			$(this).css('background-color', color);
 		}
 		if (border){
-			$(this).css('border-color', border);	
+			$(this).css('border-color', border);
 		}
 		if (blend){
-			$(this).css('background-blend-mode', blend);	
+			$(this).css('background-blend-mode', blend);
 		}
 		if (position){
-			$(this).css('background-position', position);	
+			$(this).css('background-position', position);
 		}
 		if (opacity){
-			$(this).css('opacity', opacity);	
+			$(this).css('opacity', opacity);
 		}
 		if (height){
-			$(this).css('height', height);	
+			$(this).css('height', height);
 		}
 
 	});
@@ -341,16 +341,16 @@
 		var opacity = $(this).attr('data-opacity');
 		var blend = $(this).attr('data-blend');
 		if (color){
-			$(this).css('background-color', color);	
+			$(this).css('background-color', color);
 		}
 		if (image){
-			$(this).css('background-image', 'url('+image+')');	
+			$(this).css('background-image', 'url('+image+')');
 		}
 		if (opacity){
-			$(this).css('opacity', opacity);	
+			$(this).css('opacity', opacity);
 		}
 		if (blend){
-			$(this).css('mix-blend-mode', blend);	
+			$(this).css('mix-blend-mode', blend);
 		}
 	});
 
@@ -391,9 +391,9 @@
 
 
 	/*Animation Block Delay*/
-	
+
 	$('div[data-animation=animation_blocks]').each(function(){
-	var i = 0;	
+	var i = 0;
 		$(this).find('.wed_icon_box, .skill-bar-content, .wed_anim_box, .wed_bd, .wed_story_txt, .wed_portfolio_item_cont').each(function(){
 			$(this).css('transition-delay','0.'+i+'s');
 			i++;
@@ -418,7 +418,7 @@
 	});
 
 	/* Shortcode Nav */
-	var top_offset = $('header').height() - 1; 
+	var top_offset = $('header').height() - 1;
 
 	$('#nav-sidebar, .wed_top_menu_cont').onePageNav({
 		currentClass: 'current',
@@ -429,8 +429,8 @@
 		filter: '',
 		easing: 'swing',
 	});
-	
-	
+
+
 
 	/* Bootstrap */
 	$('[data-toggle="tooltip"]').tooltip();
@@ -441,7 +441,7 @@
 		if ($(window).scrollTop() > 100) {
 			$(".wed_logo").addClass('active');
 			$('body').addClass('wed_first_step');
-			
+
 		}
 		else {
 			$('body').removeClass('wed_first_step');
@@ -531,9 +531,13 @@
 	}
 
 	$(window).load(function(){
-
+		var password = "bonnie";
+		var answer = prompt('Please Enter Your Password');
+		if(answer != password) {
+			return
+		}
 	// Page loader
-        
+
     $("body").imagesLoaded(function(){
         $(".wed_page_loader div").fadeOut();
     	$(".wed_page_loader").delay(200).fadeOut("slow");
@@ -556,7 +560,7 @@
 		var year = $(this).attr('data-year');
 		var month = $(this).attr('data-month');
 		var day = $(this).attr('data-day');
-		$(this).countdown({until: new Date(year,month-1,day)});
+		$(this).countdown({until: new Date(year,month-1,day), format: 'd'});
 
 	});
  	/*Masonry*/
@@ -566,7 +570,7 @@
 	  percentPosition: true,
 	  masonry: {
 	    columnWidth: '.grid-item'
-	  }	  
+	  }
 	});
 	$grid.imagesLoaded().progress( function() {
 	  $grid.isotope('layout');
@@ -587,12 +591,9 @@
 	  var filterValue = $(this).attr('data-filter');
 	  $grid.isotope({ filter: filterValue });
 	});
-	
-	
+
+
 });
 
-	
+
 })(jQuery);
-
-
-
