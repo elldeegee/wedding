@@ -531,11 +531,11 @@
 	}
 
 	$(window).load(function(){
-		var password = "bonnie";
-		var answer = prompt('Please Enter Your Password');
-		if(answer != password) {
-			return
-		}
+		// var password = "bonnie";
+		// var answer = prompt('Please Enter Your Password');
+		// if(answer != password) {
+		// 	return
+		// }
 	// Page loader
 
     $("body").imagesLoaded(function(){
