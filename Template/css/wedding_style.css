@@ -137,6 +137,14 @@ html {
 .wed_image_bck {
 	-webkit-background-size: cover;
 	background-size: cover;
+	transition: background-color 0.5s;
+}
+.wed_image_bck_lg h4 {
+	text-shadow: 4px 1px 5px #333;
+}
+.wed_image_bck_lg:hover {
+	background-color: #ff3;
+	transition: background-color 0.5s;
 }
 .wed_top_menu_mobile_link {
 	display: none;
