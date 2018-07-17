@@ -24,6 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/wedding_style.css" rel="stylesheet">
+    <link href="css/login-popup.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/leaves.css" type="text/css" media="screen">
 
@@ -396,7 +397,7 @@
 
                           <span class="wed_gifts_img wed_image_bck wed_image_bck_lg" data-border="#B3E5FC">
                             <h4>
-                            <a href="01_accommodation.html" target="_blank" class="wed_news_block text-center">Accommodations</a>
+                            <a class="login-popup wed_news_block text-center" href="#small-dialog">Accommodations</a>
                           </h4>
                           </span>
 
@@ -730,6 +731,15 @@
   <!-- Page End -->
   <footer class="footer-love">❤️ made by Lauren and Marc ❤️</footer>
 
+  <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+  <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+    <h1>View Details</h1>
+    <p>Please enter your password to continue.</p>
+    <input type="password" class="form-control">
+    <br>
+    <button class="btn btn-block">Submit</button>
+  </div>
+
 
 
 <!-- JQuery -->
@@ -745,6 +755,7 @@
 
 <!-- Theme JS -->
 <script src="js/wedding_script.js"></script>
+<script src="js/login-popup.js"></script>
 
 
 </body>
