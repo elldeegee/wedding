@@ -735,9 +735,14 @@
   <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
     <h1>View Details</h1>
     <p>Please enter your password to continue.</p>
-    <input type="password" class="form-control">
-    <br>
-    <button class="btn btn-block">Submit</button>
+    <form action="submit" id="loginform">
+      <input name="pass" type="password" class="form-control">
+      <br>
+      <button class="btn btn-block">Submit</button>
+    </form>
+    <div class="alert alert-warning hidden">
+      Error: invalid password.
+    </div>
   </div>
 
 
@@ -749,6 +754,7 @@
 <script src="js/wedding_library.js"></script>
 <script src="js/library/jquery.plugin.min.js"></script>
 <script src="js/jquery.countdown.min.js"></script>
+<script src="js/login.js"></script>
 
 
 
