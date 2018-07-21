@@ -1,10 +1,4 @@
-﻿<?php
-
-if(!isset($_COOKIE['lg'])) {
-  header("Location: http://marcbreakstheglasky.com");
-  die();
-} 
-?>
+﻿<?php if($_POST['api_url'] !== 'marcwithac') die(); ?>
 
 <!DOCTYPE html>
 <html lang="en">

@@ -6,12 +6,16 @@ $(document).ready(function() {
        url: 'login.php',
        data: $(this).serialize(),
        success: function(data) {
-          console.log(JSON.stringify(data));
-          if (data.message === 'SUCCESS') {
-            window.location = '/accommodations/index.php';
+          if (data.code === 200) {
+            var url = '/accommodations/index.php';
+            var form = $('<form action="' + url + '" method="post">' +
+              '<input type="text" name="api_url" value="' + data.message + '" />' +
+              '</form>');
+            $('body').append(form);
+            form.submit();
           }
           else {
-            alert('Invalid Credentials. ' +data.message);
+            alert('Server error: ' +data.message);
           }
        },
        error: function(data) {
