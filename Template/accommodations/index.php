@@ -116,15 +116,7 @@
                     <!-- Item -->
                       <div class="col-md-offset-1">
                         <div>
-                  <p> A block of rooms at two adjacent hotels has been reserved for our guests at a discounted rate.
-                    These rooms <b> must be booked prior to October 30th </b>to obtain the rate, so please book as soon as possible.<br> <br>
-                    <b> Marriott Residence Inn, Riverhead NY</b> <br>
-                    To book online, <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Glasky-Silberman%20Wedding%20Room%20Block%5Eisprh%60gswgswa%7Cgswgswb%7Cgswgswc%60309.00-509.00%60USD%60false%606%607/3/19%607/5/19%605/12/19&app=resvlink&stop_mobi=yes" target="_blank"><b>CLICK HERE</b></a>. <br>
-                    To book via phone, call (631) 905-5811 and reference the Glasky / Silberman wedding when making your reservations. <br> <br>
-                    <b> Hilton Garden Inn, Riverhead NY</b> <br>
-                    To book online, <a href="http://group.hiltongardeninn.com/Glasky-Silberman-Wed" target="_blank"><b>CLICK HERE</b></a>. <br>
-                    To book via phone, call (631) 727-2733 and reference the Glasky / Silberman wedding when making your reservations. <br> <br>
-                    Transportation will be provided to and from the above hotels and the wedding venue. <br><br>
+                  <p> We will be providing transportation to and from the wedding venue and both the Marriott Residence Inn and Hilton Garden Inn located in Riverhead, NY. <br><br>
                     <i> Alternatively, you can explore airbnb and VRBO for vacation rentals or these other hotels: <br>
                     -  <a href="https://www.hamptonoceanresort.com/" target="_blank"><b>Hampton Ocean Resort</b></a>, East Quogue NY (2 night min) <br>
                     -  <a href="https://www.jedediahhawkinsinn.com/" target="_blank"><b>Jedediahh Hawkins Inn</b></a>, Jamesport NY <br>
