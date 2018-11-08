@@ -98,7 +98,7 @@
           <div class="row wed_row_padding">
             <div class="col-md-offset-1">
               <div>
-                <h4><i>We will be getting married at the Oceanbleu in Westhampton Beach, NY! <br> <br> Below you will find some details regarding logistics. <br>
+                <h4><i>We will be getting married at Oceanbleu in Westhampton Beach, NY! <br> <br> Below you will find some details regarding logistics. <br>
                   Please note, since our wedding is taking place during the height of the summer season, we <b>strongly</b> advise booking accommodations as soon as possible. </i>
               </div>
             </div>
@@ -118,7 +118,7 @@
                         <div>
                   <p> A block of rooms at two adjacent hotels has been reserved for our guests at a discounted rate.
                     These rooms <b> must be booked prior to October 30th </b>to obtain the rate, so please book as soon as possible.<br> <br>
-                    <b> Mariott Residence Inn, Riverhead NY</b> <br>
+                    <b> Marriott Residence Inn, Riverhead NY</b> <br>
                     To book online, <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Glasky-Silberman%20Wedding%20Room%20Block%5Eisprh%60gswgswa%7Cgswgswb%7Cgswgswc%60309.00-509.00%60USD%60false%606%607/3/19%607/5/19%605/12/19&app=resvlink&stop_mobi=yes" target="_blank"><b>CLICK HERE</b></a>. <br>
                     To book via phone, call (631) 905-5811 and reference the Glasky / Silberman wedding when making your reservations. <br> <br>
                     <b> Hilton Garden Inn, Riverhead NY</b> <br>
@@ -173,7 +173,7 @@
           - <b>  Wine tasting: </b> Eastern Long Island is home to a number of great vineyards, which you can find <a href="http://www.liwines.com/wineries/" target="_blank"><b>HERE</b></a>. <br>
           - <b>  Shopping: </b> In Riverhead you can find Tanger Outlet Mall as well as many of the big box retailers.<br>
           - <b>  Walking around: </b> If you're looking to check out the local towns, head to Southampton. <br>
-          - <b>  The Riverhead Acquarium: </b> This acquarium is among the best in the US. <br>
+          - <b>  The Riverhead Aquarium: </b> This aquarium is among the best in the US. <br>
           - <b>  Splish Splash: </b> Riverhead is home to "Long Island's Best Waterpark." <br>
           - <b>  Watersports: </b> SUP or Kayak in the Peconic with <a href="https://peconicpaddler.com/" target="_blank"><b>Peconic Paddler</b></a>. <br>
           - <b>  Ice Cream: </b> Stop by <a href="http://snowflakeicecream.com/" target="_blank"><b>Snowflake</b></a>, our favorite (and debatably world famous) ice cream shop that serves homemade scoops, including our "go-to" Peconic Swamp Thing. <br>  <br>
