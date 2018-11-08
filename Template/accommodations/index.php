@@ -116,7 +116,7 @@
                     <!-- Item -->
                       <div class="col-md-offset-1">
                         <div>
-                  <p> We will be providing transportation to and from the wedding venue and both the Marriott Residence Inn and Hilton Garden Inn located in Riverhead, NY. <br><br>
+                  <p> We will be providing transportation to and from the wedding venue and both the <a href= "https://www.marriott.com/hotels/travel/isprh-residence-inn-long-island-east-end/" target="_blank"><b>Marriott Residence Inn</b></a> and the <a href="https://hiltongardeninn3.hilton.com/en/hotels/new-york/hilton-garden-inn-riverhead-ISPRHGI/index.html" target="_blank"><b>Hilton Garden Inn</b></a> located in Riverhead, NY. <br><br>
                     <i> Alternatively, you can explore airbnb and VRBO for vacation rentals or these other hotels: <br>
                     -  <a href="https://www.hamptonoceanresort.com/" target="_blank"><b>Hampton Ocean Resort</b></a>, East Quogue NY (2 night min) <br>
                     -  <a href="https://www.jedediahhawkinsinn.com/" target="_blank"><b>Jedediahh Hawkins Inn</b></a>, Jamesport NY <br>
