@@ -15,6 +15,13 @@
     gtag('config', 'UA-115975976-1');
     </script>
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WMGBXBK');</script>
+    <!-- End Google Tag Manager -->
 
     <!-- Library CSS -->
     <link href="css/wedding_library.css" rel="stylesheet">
@@ -24,6 +31,7 @@
 
     <!-- Theme CSS -->
     <link href="css/wedding_style.css" rel="stylesheet">
+    <link href="css/login-popup.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/leaves.css" type="text/css" media="screen">
 
@@ -35,7 +43,11 @@
 </head>
 <body class="wed_firefly_only">
 
-
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMGBXBK"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
   <!-- Preloader -->
   <div class="wed_page_loader">
      <div class="wed_story_content wed_image_bck" data-color="#ff3">
@@ -299,7 +311,7 @@
                       <h3>The "Real World"</h3>
                       <div class="wed_month_year">May 2013</div>
                       <h5>Finally together in NYC</h5>
-                      <p>After extended periods of time apart, from semesters abroad in Rome and Hong Kong, and Lauren's senior year at Cornell (with Marc in NYC), we finally entered the "real world" together after Lauren's graduation. We each started (and left) our first jobs, and got to know each other's roommates (a little too) well, as we rarely spent nights apart. A special thanks to Melissa (and Ranger) for letting Marc become an "unofficial" tenant of 10 Hanover Square!</p>
+                      <p>After extended periods of time apart, from semesters abroad in Rome and Hong Kong, and Lauren's senior year at Cornell (with Marc in NYC), we finally entered the "real world" together after Lauren's graduation. We each started (and left) our first jobs, and got to know each other's roommates (a little too well), as we rarely spent nights apart. A special thanks to Melissa (and Ranger) for letting Marc become an "unofficial" tenant of 10 Hanover Square!</p>
                     </div>
                   </div>
                   <div class="wed_vertical_line hidden-sm hidden-xs"></div>
@@ -383,18 +395,32 @@
             <div class="row wed_auto_height wed_middle_titles">
               <div class="col-md-12 wed_image_bck wed_fixed text-center" >
                   <h2>Can't Wait to Celebrate!</h2>
-                  <h3>Details coming soon!</h3>
               </div>
               <!-- col end -->
             </div>
             <!-- row end -->
-            <!-- <span class="wed_countdown" data-year="2019" data-month="07" data-day="04"></span> -->
+            <span class="wed_countdown" data-year="2019" data-month="07" data-day="04"></span>
+
+          <!-- boxes -->
+          <div class="wed_icon_boxes row text-center">
+
+              <div class="col-md-6 col-md-offset-3">
+
+                          <span class="wed_gifts_img wed_image_bck wed_image_bck_lg" data-border="#B3E5FC">
+                            <h4>
+                            <a class="login-popup wed_news_block text-center" href="#small-dialog">Details & Accommodations</a>
+                          </h4>
+                          </span>
+
           </div>
-          <!-- container end -->
+          <!-- boxes end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
 
-        </section>
-        <!-- section end -->
-
+      </div>
+      <!-- Border End -->
       </div>
       <!-- White border end-->
 
@@ -706,6 +732,20 @@
   <!-- Page End -->
   <footer class="footer-love">❤️ made by Lauren and Marc ❤️</footer>
 
+  <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+  <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+    <h1>View Details</h1>
+    <p>Please enter your password to continue.</p>
+    <form action="submit" id="loginform">
+      <input name="pass" type="password" class="form-control">
+      <br>
+      <button class="btn btn-block">Submit</button>
+    </form>
+    <div class="alert alert-warning hidden">
+      Error: invalid password.
+    </div>
+  </div>
+
 
 
 <!-- JQuery -->
@@ -715,12 +755,14 @@
 <script src="js/wedding_library.js"></script>
 <script src="js/library/jquery.plugin.min.js"></script>
 <script src="js/jquery.countdown.min.js"></script>
+<script src="js/login.js"></script>
 
 
 
 
 <!-- Theme JS -->
 <script src="js/wedding_script.js"></script>
+<script src="js/login-popup.js"></script>
 
 
 </body>
